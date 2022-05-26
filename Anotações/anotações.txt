@@ -1,0 +1,43 @@
+##Comandos Windows:
+
+dir - Lista todas as pastas
+
+cd/ - Direciona para uma pasta específica
+
+cd .. - Volta para a pasta anterior
+
+cls - Limpa os comandos da tela do Git
+
+mkdir + "nome" - Cria nova pasta com o nome digitado
+
+del - Deleta arquivo
+
+rmdir - Deleta repositório/pasta
+
+git init - Criar um novo repositório
+
+git add - Adiciona um arquivo
+
+git commit - Faz o commit inicial
+
+git push origin main - Subir o repositório para o GitHub
+
+##Conceitos:
+
+sha1 - Forma reduzida de representar um arquivo. São 40 caracteres gerados para identificar qual é a versão de determinado arquivo.
+
+Blobs - metadados do Git, mostra o tamanho da string, o formato e etc, sempre com base no sha1
+
+Trees - Objeto que agrupa os Blobs e mostra o nome do arquivo. Pode apontar para mais blobs e/ou outras trees, montando assim o caminho do objeto
+
+Commits - Objeto que junta todas as informações. Ele aponta para uma ou mais trees, disponibiliza a versão anterior dos repositórios, mostra quem foi o autor das alterações e pode exibir mensagens.
+
+Chave SSH - Conexão segura e encriptada entre máquina(repositório local) e servidor(repositório remoto)
+
+Untracked - Arquivo recém adicionado ou removido
+
+Unmodfied - Arquivo sem alteração
+
+Modified - Arquivo já com alguma alteração
+
+Staged - Arquivo pronto para entrar no commit
